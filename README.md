@@ -25,22 +25,6 @@ This prototype extends the main TenantEase workflow rather than presenting a dis
 - Upload a labelled historical CSV to train and activate a custom model. Evaluation uses a tenant-group split when a `tenant_group` column is available.
 - New payments recorded in the rent ledger are used in the feature history for the next prediction run.
 
-### Smart follow-ups
-- Generate editable reminder drafts for pending, partial and overdue charges.
-- Choose Friendly, Professional or Firm tone.
-- Download the draft as a text file.
-- No message is sent automatically. Verify details and payment instructions before sending.
-
-## Run on Windows
-
-1. Install **Python 3.11 or newer**. Python 3.11 is recommended for the assessment environment.
-2. Extract the ZIP to a normal folder, for example `C:\Projects\TenantEase_Predictive_Intelligence`.
-3. Double-click `start.bat`.
-4. The launcher creates a `.venv`, installs dependencies and starts Streamlit.
-5. Open the local address shown in the terminal, normally `http://localhost:8501`.
-
-The first launch needs an internet connection to install Python packages. Subsequent launches reuse the virtual environment.
-
 ## Run manually
 
 ```bash
